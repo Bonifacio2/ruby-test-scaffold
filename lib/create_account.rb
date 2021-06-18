@@ -1,3 +1,3 @@
-def create_account(arg)
-    'fiz'
+def create_account(http_client)
+    http_client.apply 'this is hue' 
 end
